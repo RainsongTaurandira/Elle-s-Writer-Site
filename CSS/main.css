@@ -33,6 +33,7 @@ Kevin Powell - Responsive design made easy 16 Dec 20 -- https://www.youtube.com/
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
+    /* padding:0; */
 }
 
 
@@ -71,7 +72,9 @@ p {
     margin-bottom: 1em;
 }
 
-
+a {
+    color: var(--primary-accent);
+}
 .img {
     display: block;
     max-width: 100%;   
@@ -85,7 +88,8 @@ p {
     line-height: 0; */
     /* img vertical-align: top; */
 }
-/* .dream {
+/* section > .dream {
+    padding-block: min(2vh, 2rem);
     max-height: 80vh;
 } */
 
@@ -142,17 +146,20 @@ p {
  .caption {
     font-size: 0.5em;
     margin-top: .5em;
+    color: var(--primary-accent);
 } 
 
 .caption1 {
     margin-left: 4em;
     font-size: 0.5em;
+    color: var(--primary-accent);
 }
 
 .caption2 {
     font-size: 0.5em;
     margin-top: .5em;
     margin-left: 2rem;
+    color: var(--primary-accent);
 }
 
 /* ====  header ===== */
